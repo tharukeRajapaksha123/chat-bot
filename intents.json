@@ -1,0 +1,89 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "greetings",
+                "what's up?",
+                "how is it going"
+            ],
+            "responses": [
+                "Hello mate",
+                "Hey!",
+                "What can you do for you ?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting on you bye",
+                "Till the end"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day!",
+                "Bye comeback again soon!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome,thanks",
+                "Thanks for your support",
+                "Thank you very much",
+                "Thanks for your helos"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, I can't understand yoy",
+                "Plase give me more infor",
+                "Not sure what are you saying"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me",
+                "What you can do",
+                "What helps do you provide"
+            ],
+            "responses": [
+                "I can guid you through Adverse drug reaction list,Blood pressure",
+                "I can give you instructions for healthy life",
+                "What can you do for you ?"
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "How can I pay",
+                "Ho do I do my payments",
+                "How much do I have to pay",
+                "Can I pay with paypal",
+                "Do you accespt visa payments"
+            ],
+            "responses": [
+                "We accept VISA,MASTER and Paypal payments",
+                "Our payment methods are VISA,MASTER and paypal"
+            ]
+        }
+    ]
+}
